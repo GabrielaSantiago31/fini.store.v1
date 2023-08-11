@@ -13,9 +13,9 @@ Após baixar o projeto, você pode abri-lo com o Eclipse IDE 2022-12. Para isso,
   
 ### :hammer_and_pick: Funcionalidade do Projeto 
 ---
-- <kbd>Sign in:</kbd> O sistema permite o cadastro do cliente no sistema. Para isso, deverá ser selecionada a opção sign in, a qual pedirá os seguintes dados: nome, sobrenome, email, telefone, cpf, data de nascimento e senha.
-Os dados são verificados assim que inseridos, não permitindo o registro de dados inválidos.
-A confirmação do endereço se dá através de um Web Service, o qual é utilizado para completar e validar o endereço do cliente quando o mesmo insere o cep.
+- <kbd>Sign in:</kbd> O sistema permite o cadastro do cliente no sistema. Para isso, deverá ser selecionada a opção sign in, a qual pedirá os seguintes dados: nome, sobrenome, email, telefone, cpf, data de nascimento e senha.<br/>
+Os dados são verificados assim que inseridos, não permitindo o registro de dados inválidos.<br/>
+A confirmação do endereço se dá através de um Web Service, o qual é utilizado para completar e validar o endereço do cliente quando o mesmo insere o cep.<br/>
 Caso o cliente já esteja registrado no banco de dados, a ele serão apresentadas as opções de fazer log in ou sair.
 
 - <kbd>Log in:</kbd> O usuário poderá fazer o login no sistema utilizando o email e a senha cadastrados. Caso haja um equívoco no login e/ou na senha, o sistema informará que há um erro e o usuário poderá tentar novamente ou encerrar a sessão.
@@ -24,7 +24,7 @@ Caso o cliente já esteja registrado no banco de dados, a ele serão apresentada
   
 - <kbd>Fazer um pedido:</kbd> O cliente poderá escolher a opção 2, caso queira fazer um pedido. Ao clicar na opção, ele deverá informar o código do produto e a quantidade desejada.
 A quantidade de ingredientes no estoque é decrescida de acordo com o produto (e os ingredientes que são necessários para fabricar um pacote) e a quantidade desejada (a quantidade total dos ingredientes para a quantidade de pacotes desejados),
-assim, caso não haja ingredientes suficientes para a realização do pedido, o cliente é informado e, assim, poderá escolher outro produto ou retornar ao menu.
+assim, caso não haja ingredientes suficientes para a realização do pedido, o cliente é informado e, assim, poderá escolher outro produto ou retornar ao menu.<br/>
 Caso o pedido seja confirmado, o cliente receberá um email de confirmação.
 
 - <kbd>Atualizar dados:</kbd> O cliente ainda poderá atualizar os seus dados cadastrais ao escolher a opção 3.
@@ -41,7 +41,7 @@ O sistema ainda pode ser acessado pelo administrador, o qual pode se logar no si
 
 - <kbd>Log out:</kbd> Ao digitar a opção 5, o administrador poderá encerrar a sessão.
 
-ATENÇÃO!!!
+ATENÇÃO!!!<br/>
 O sistema não apresenta uma view real, mas, sim, uma simulação da view feita em linha de comando.
 
 ###  :octocat: Técnicas e Tecnologias Utilizadas
