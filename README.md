@@ -23,9 +23,9 @@ Caso o cliente já esteja registrado no banco de dados, a ele serão apresentada
 - <kbd>Catálogo de produtos:</kbd> Uma vez que o login é confirmado, o cliente poderá conferir os produtos disponíveis, escolhendo a opção 1.
   
 - <kbd>Fazer um pedido:</kbd> O cliente poderá escolher a opção 2, caso queira fazer um pedido. Ao clicar na opção, ele deverá informar o código do produto e a quantidade desejada.
-- A quantidade de ingredientes no estoque é decrescida de acordo com o produto (e os ingredientes que são necessários para fabricar um pacote) e a quantidade desejada (a quantidade total dos ingredientes para a quantidade de pacotes desejados),
-- assim, caso não haja ingredientes suficientes para a realização do pedido, o cliente é informado e, assim, poderá escolher outro produto ou retornar ao menu.
-- Caso o pedido seja confirmado, o cliente receberá um email de confirmação.
+A quantidade de ingredientes no estoque é decrescida de acordo com o produto (e os ingredientes que são necessários para fabricar um pacote) e a quantidade desejada (a quantidade total dos ingredientes para a quantidade de pacotes desejados),
+assim, caso não haja ingredientes suficientes para a realização do pedido, o cliente é informado e, assim, poderá escolher outro produto ou retornar ao menu.
+Caso o pedido seja confirmado, o cliente receberá um email de confirmação.
 
 - <kbd>Atualizar dados:</kbd> O cliente ainda poderá atualizar os seus dados cadastrais ao escolher a opção 3.
 
