@@ -15,7 +15,7 @@ Após baixar o projeto, você pode abri-lo com o Eclipse IDE 2022-12. Para isso,
 ---
 - <kbd>Sign in:</kbd> O sistema permite o cadastro do cliente no sistema. Para isso, deverá ser selecionada a opção sign in, a qual pedirá os seguintes dados: nome, sobrenome, email, telefone, cpf, data de nascimento e senha.
 Os dados são verificados assim que inseridos, não permitindo o registro de dados inválidos.
-A confirmação do endereço se dá através de um Web, o qual é utilizado para completar e validar o endereço do cliente quando o mesmo insere o cep.
+A confirmação do endereço se dá através de um Web Service, o qual é utilizado para completar e validar o endereço do cliente quando o mesmo insere o cep.
 Caso o cliente já esteja registrado no banco de dados, a ele serão apresentadas as opções de fazer log in ou sair.
 
 - <kbd>Log in:</kbd> O usuário poderá fazer o login no sistema utilizando o email e a senha cadastrados. Caso haja um equívoco no login e/ou na senha, o sistema informará que há um erro e o usuário poderá tentar novamente.
