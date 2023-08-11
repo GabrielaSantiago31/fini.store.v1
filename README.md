@@ -1,5 +1,5 @@
 # fini.store.v1
-Sistema de vendas de gerenciamento de vendas e estoque de uma loja de doces. 
+Sistema de gerenciamento de vendas e estoque de uma loja de doces. 
 
 <p>
 <img src="https://img.shields.io/badge/STATUS-COMPLETO-green"/>
