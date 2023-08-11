@@ -21,7 +21,7 @@ Caso o cliente já esteja registrado no banco de dados, a ele serão apresentada
 - <kbd>Log in:</kbd> O usuário poderá fazer o login no sistema utilizando o email e a senha cadastrados. Caso haja um equívoco no login e/ou na senha, o sistema informará que há um erro e o usuário poderá tentar novamente ou encerrar a sessão.
 
 - <kbd>Catálogo de produtos:</kbd> Uma vez que o login é confirmado, o cliente poderá conferir os produtos disponíveis, escolhendo a opção 1.
-- 
+  
 - <kbd>Fazer um pedido:</kbd> O cliente poderá escolher a opção 2, caso queira fazer um pedido. Ao clicar na opção, ele deverá informar o código do produto e a quantidade desejada.
 - A quantidade de ingredientes no estoque é decrescida de acordo com o produto (e os ingredientes que são necessários para fabricar um pacote) e a quantidade desejada (a quantidade total dos ingredientes para a quantidade de pacotes desejados),
 - assim, caso não haja ingredientes suficientes para a realização do pedido, o cliente é informado e, assim, poderá escolher outro produto ou retornar ao menu.
@@ -41,8 +41,8 @@ O sistema ainda pode ser acessado pelo administrador, o qual pode se logar no si
 
 - <kbd>Log out:</kbd> Ao digitar a opção 5, o administrador poderá encerrar a sessão.
 
-- ATENÇÃO!!!
-- O sistema não apresenta uma view real, mas, sim, uma simulação da view feita em linha de comando.
+ATENÇÃO!!!
+O sistema não apresenta uma view real, mas, sim, uma simulação da view feita em linha de comando.
 
 ###  :octocat: Técnicas e Tecnologias Utilizadas
 ---
